@@ -1,1 +1,5 @@
-# squad-1-ad-xp-data-science-1
+# ADxp Data Science - Squad 1
+##Integrantes:
+* Person 1
+* Person 2
+* Person 3
