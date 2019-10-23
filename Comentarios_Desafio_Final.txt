@@ -25,6 +25,14 @@ Premissas - Feature engineering:
 
 Algoritmo
 
-Utlizaremos o modelo de Random Forest para treinar os clientes do portfolio e criar um modelo para então aplicar aos clientes do mercado que não são do portfolio atual.
+Cenário 1:
+	Utlizaremos o modelo de Random Forest para treinar os clientes do portfolio e criar um modelo para então aplicar 	aos clientes do mercado que não são do portfolio atual.
 
-Para validar o modelo será utilizado Cross-validation utilizando uma taxa de 20% a cada treino e teste do modelo dentro do próprio portfolio.
+	Para validar o modelo será utilizado Cross-validation utilizando uma taxa de 20% a cada treino e teste do modelo 	dentro do próprio portfolio.
+
+Cenário 2:
+	Utilizaremos o K-MEANS para treinar o mercado e dividir em 10 grupos.
+
+	Após isso utilizar o portfolio para verificar o percentual do portfolio dentro de cada grupo.
+
+	Depois disso, sugerir os clientes que estão no grupo com maior percentual e que não são do portfolio atual.
